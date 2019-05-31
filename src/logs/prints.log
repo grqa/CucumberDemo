@@ -1,0 +1,29 @@
+21:53:23.645 [main] INFO  base.TestBase - The page https://apcoworldwide.com/about/ has 42 links
+21:54:01.159 [main] INFO  base.TestBase - The page https://apcoworldwide.com/blog/ has 69 links
+21:54:57.022 [main] INFO  base.TestBase - The page https://apcoworldwide.com/contact/ has 77 links
+21:56:05.317 [main] INFO  base.TestBase - The page https://apcoworldwide.com/ has 111 links
+21:59:50.820 [main] ERROR base.TestBase - Please give a right page title
+22:00:21.938 [main] ERROR base.TestBase - Please give a right page title
+22:00:48.411 [main] ERROR base.TestBase - Please give a right page title
+22:01:16.667 [main] ERROR base.TestBase - Please give a right page title
+22:02:15.586 [main] INFO  base.TestBase - The box with the text BOLDNESS
+We push boundaries and produce better ideas to solve the really challenging problems of our time opened
+22:02:16.751 [main] INFO  base.TestBase - The box with the text CURIOSITY
+We hunger for learning and improvement in all we do, keeping us at the cutting edge opened
+22:02:17.920 [main] INFO  base.TestBase - The box with the text INCLUSIVITY
+Our culture embraces diversity of people, thoughts and experiences opened
+22:02:19.088 [main] INFO  base.TestBase - The box with the text EMPATHY
+We seek to embrace and incorporate different customs and approaches, and to understand the perspectives of others opened
+22:02:19.088 [main] INFO  base.TestBase - All the boxes at 'Driven by our values' expand slightly when you click on them
+22:02:35.125 [main] ERROR base.TestBase - The default expanded box at 'What People are saying' is the same all the time
+22:02:45.433 [main] INFO  base.TestBase - The boxes at 'What People are saying' getting expanded by clicking on them
+22:02:45.434 [main] INFO  base.TestBase - All the boxes at 'Driven by our values' expand slightly when you click on them
+22:03:05.256 [main] INFO  base.TestBase - The AI AND THE RISE OF A NEW GENERATION video working fine
+22:03:25.828 [main] ERROR base.TestBase - The logos of clients are incorrect
+22:03:41.609 [main] INFO  base.TestBase - The page https://apcoworldwide.com/about/people/international-advisory-council/ has 145 links
+22:05:21.667 [main] INFO  base.TestBase - After hovering on people info the photo appears
+22:05:37.840 [main] INFO  base.TestBase - The page https://apcoworldwide.com/about/people/leadership/ has 72 links
+22:07:12.158 [main] INFO  base.TestBase - The page https://apcoworldwide.com/news/ has 50 links
+22:07:45.625 [main] INFO  base.TestBase - The page https://apcoworldwide.com/about/people/ has 40 links
+22:09:09.547 [main] INFO  base.TestBase - The page https://apcoworldwide.com/work/ has 88 links
+22:09:56.748 [main] ERROR base.TestBase - The default service at 'Work Page' is the same all the time

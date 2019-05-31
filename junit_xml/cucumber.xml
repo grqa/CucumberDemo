@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="72" time="1024.949304">
+    <testcase classname="Apco about page" name="Verifying the About Page Title" time="10.618462">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "about" button on "top" menu..........................passed
+Then The page title is "About – APCO Worldwide".............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco about page" name="Verifying all links at about page are working" time="26.914047">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "about" button on "top" menu..........................passed
+Then Check all the links on the "about" page................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco about page" name="Verifying that apco logo is visible" time="7.888037">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "about" button on "top" menu..........................passed
+Then The white logo is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Blog page" name="Verifying the Blog Page Title" time="7.890417">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "blog" button on "top" menu...........................passed
+Then The page title is "APCO Forum - The latest insights from APCO Worldwide's global experts.".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Blog page" name="Verifying all links at blog page are working" time="37.325927">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "blog" button on "top" menu...........................passed
+Then Check all the links on the "blog" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Blog page" name="Verifying that apco logo is visible" time="7.744574">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "blog" button on "top" menu...........................passed
+Then The white logo is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Contact page" name="Verifying the Contact Page Title" time="9.370983">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "contact" button on "top" menu........................passed
+Then The page title is "Contact – APCO Worldwide"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Contact page" name="Verifying all links at contact page are working" time="44.399107">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "contact" button on "top" menu........................passed
+Then Check all the links on the "contact" page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Contact page" name="Verifying that apco logo is visible" time="10.496369">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "contact" button on "top" menu........................passed
+Then The white logo is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying the Home Page Title" time="7.488463">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+Then The page title is "APCO Worldwide – An advisory and advocacy communications consultancy".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying all links at home page are working" time="52.900239">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+Then Check all the links on the "home" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that apco logo is visible" time="15.953719">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+Then The white logo is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that orange apco logo when scrolling is visible" time="11.762979">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When Scrolling down.........................................................passed
+And Scrolling up............................................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that apco logo when scrolling is visible" time="6.730818">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When Scrolling down.........................................................passed
+Then The white logo is displayed "false"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that orange apco logo at the top of the page is not visible" time="6.864544">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+Then The orange logo is displayed "false"...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying about link on top menu is working" time="11.980215">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "about" button on "top" menu..........................passed
+Then The page title is "About – APCO Worldwide".............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying about link on lower menu is working" time="13.536612">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "about" button on "lower" menu........................passed
+Then The page title is "About – APCO Worldwide".............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying work link on top menu is working" time="7.828857">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+Then The page title is "Work and Expertise – APCO Worldwide"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying work link on lower menu is working" time="8.18835">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "lower" menu.........................passed
+Then The page title is "Work and Expertise – APCO Worldwide"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying blog link on top menu is working" time="8.923304">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "blog" button on "top" menu...........................passed
+Then The page title is "APCO Forum - The latest insights from APCO Worldwide's global experts.".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying blog link on lower menu is working" time="15.070798">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "blog" button on "lower" menu.........................passed
+Then The page title is "APCO Forum - The latest insights from APCO Worldwide's global experts.".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying contact link on top menu is working" time="11.702509">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "contact" button on "top" menu........................passed
+Then The page title is "Contact – APCO Worldwide"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying contact link on lower menu is working" time="11.18196">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "contact" button on "lower" menu......................passed
+Then The page title is "Contact – APCO Worldwide"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying search on top menu is working" time="6.889967">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "search" button on "top" menu.........................passed
+Then The search field is displayed "true"...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that search field is working" time="10.906105">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "search" button on "top" menu.........................passed
+And clearing the search field...............................................passed
+And typing "test"...........................................................passed
+And click on "magnify icon".................................................passed
+Then The search result should give as a result "test".......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that close button at search area is working" time="9.134193">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "search" button on "top" menu.........................passed
+And click on "close button".................................................passed
+Then The search field is displayed "false"..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that when I’m hovering on about at top menu a sub-menu appearing" time="12.006292">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+Then The sub-menu should be displayed "true"................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at top-menu are working" time="10.479322">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And clicking on topsubmenulocations.........................................passed
+Then The title is Contact – APCO Worldwide..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at top-menu are working 2" time="8.586223">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And clicking on topsubmenucareers...........................................passed
+Then The title is Careers – APCO Worldwide..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at top-menu are working 3" time="9.122987">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And clicking on topsubmenuleadership........................................passed
+Then The title is Leadership – APCO Worldwide...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at top-menu are working 4" time="10.903091">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And clicking on topsubmenunews..............................................passed
+Then The title is News – APCO Worldwide.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at top-menu are working 5" time="11.102052">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And clicking on topsubmenuawards............................................passed
+Then The title is Awards – APCO Worldwide...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at lower-menu are working" time="11.99782">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on submenulocationsDown.......................................passed
+Then The title is Contact – APCO Worldwide..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at lower-menu are working 2" time="14.759171">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on submenucareersDown.........................................passed
+Then The title is Careers – APCO Worldwide..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at lower-menu are working 3" time="8.749979">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on submenuleadershipDown......................................passed
+Then The title is Leadership – APCO Worldwide...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at lower-menu are working 4" time="7.416147">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on submenunewsDown............................................passed
+Then The title is News – APCO Worldwide.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that links on about sub-menu at lower-menu are working 5" time="11.784616">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on submenuawardsDown..........................................passed
+Then The title is Awards – APCO Worldwide...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that IAC link of the sub-menu leadership on the about sub-menu on top menu is displayed" time="8.049064">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+Then The Iac button is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that IAC link of the sub-menu leadership on the about sub-menu on top menu is working" time="8.067579">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+Then The page title is "International Advisory Council – APCO Worldwide"....passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that learn button is working" time="10.062217">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "learn_more"...............................................passed
+Then The page title is "About – APCO Worldwide".............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that privacy policy button on lower menu is working" time="8.378084">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "privacy_policy"...........................................passed
+Then The page title is "Privacy Policy – APCO Worldwide"....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that terms and conditions button on lower menu is working" time="9.069015">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "termsAndCon"..............................................passed
+Then The page title is "Terms & Conditions – APCO Worldwide"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that all the boxes at Driven by our values expand slightly when you click on them" time="18.845594">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicks on all boxes at Driven by our values.......................passed
+Then The boxes expand slightly "true".......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that the default expanded box at What People are saying is not the same after every refresh" time="17.038739">
+        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at stepDefinitions.PageSteps.before_refresh_and_after_refresh_results_should_be_different(PageSteps.java:393)&#10;&#9;at ✽.Before refresh and after refresh results should be different(src/test/java/features/apcoHomePage.feature:184)&#10;">
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User checking which box is active before refresh.......................passed
+And refreshing the page.....................................................passed
+And User checking which box is active after refresh.........................passed
+Then Before refresh and after refresh results should be different...........failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.PageSteps.before_refresh_and_after_refresh_results_should_be_different(PageSteps.java:393)
+	at ✽.Before refresh and after refresh results should be different(src/test/java/features/apcoHomePage.feature:184)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that the boxes at What People are saying expand slightly when you click on them" time="9.240383">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicks on boxes at what people are saying.........................passed
+Then The boxes expand slightly "true".......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that Ai and the rise video will play" time="19.780411">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "AiAndTheRiseVideo"........................................passed
+And with the help of sikuli clicking on play button.........................passed
+Then With the help of sikuli clicking on pause button.......................passed
+And The video working "true"................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco home page" name="Verifying that Clients Logos are visually correct" time="20.65048">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When Scrolling into view "ClientDanfoss"....................................passed
+And taking a screenshot.....................................................passed
+Then Screenshot and the expected image are "true"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying the Iac Page Title" time="7.713475">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+Then The page title is "International Advisory Council – APCO Worldwide"....passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying all links at Iac page are working" time="66.507037">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+Then Check all the links on the "blog" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying that apco logo is visible" time="9.763649">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying that Breadcrumb is working" time="9.99933">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And click on "Breadcrumb"...................................................passed
+Then The page title is "People – APCO Worldwide"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying that Full IAC button is preselected" time="10.045234">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+Then The Full IAC button is preselected "true"..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Iac page" name="Verifying that Full IAC button is preselected 2" time="11.727559">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And scroll into view "EduardoAguirre".......................................passed
+Then Take a screenshot......................................................passed
+And Move the mouse over "EduardoAguirre"....................................passed
+And Take a new screenshot...................................................passed
+And Compare screenshots if they changed after hovering on...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco leadership page" name="Verifying the leadership Page Title" time="7.917527">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "leadership"...................................................passed
+Then The page title is "Leadership – APCO Worldwide"........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco leadership page" name="Verifying all links at leadership page are working" time="35.322628">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "leadership"...................................................passed
+Then Check all the links on the "leadership" page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco leadership page" name="Verifying that apco logo is visible" time="10.044936">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "leadership"...................................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco leadership page" name="Verifying that breadcrumbs are visible" time="39.084481">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='breadcrumbs']&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Linux 4.15.0-50-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'canic-mate2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-50-generic', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /tmp/.com.google.Chrome.YjZINp}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:41675}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 5244df648dc30b1fb489511f1cc702a9&#10;*** Element info: {Using=xpath, value=//div[@class='breadcrumbs']}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at com.sun.proxy.$Proxy36.isDisplayed(Unknown Source)&#10;&#9;at pages.InternAdvPage.verifyBreadcrumbs(InternAdvPage.java:54)&#10;&#9;at stepDefinitions.PageSteps.the_breadcrumbs_are_visible_something(PageSteps.java:432)&#10;&#9;at ✽.The Breadcrumbs are visible &quot;true&quot;(src/test/java/features/apcoLeadershipPage.feature:29)&#10;">
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "leadership"...................................................passed
+Then The Breadcrumbs are visible "true".....................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='breadcrumbs']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Linux 4.15.0-50-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'canic-mate2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-50-generic', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /tmp/.com.google.Chrome.YjZINp}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:41675}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 5244df648dc30b1fb489511f1cc702a9
+*** Element info: {Using=xpath, value=//div[@class='breadcrumbs']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.isDisplayed(Unknown Source)
+	at pages.InternAdvPage.verifyBreadcrumbs(InternAdvPage.java:54)
+	at stepDefinitions.PageSteps.the_breadcrumbs_are_visible_something(PageSteps.java:432)
+	at ✽.The Breadcrumbs are visible "true"(src/test/java/features/apcoLeadershipPage.feature:29)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Apco News page" name="Verifying the News Page Title" time="9.363393">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "news".........................................................passed
+Then The page title is "News – APCO Worldwide"..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco News page" name="Verifying all links at News page are working" time="22.840001">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And click on "news".........................................................passed
+Then Check all the links on the "News" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco People page" name="Verifying the People Page Title" time="9.898445">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And click on "Breadcrumb"...................................................passed
+Then The page title is "People – APCO Worldwide"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco People page" name="Verifying all links at People page are working" time="21.540068">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And click on "Breadcrumb"...................................................passed
+Then Check all the links on the "News" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco People page" name="Verifying that apco orange logo is visible" time="9.432608">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And click on "Breadcrumb"...................................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco People page" name="Verifying that senior leadership link landing you on leadership page" time="11.879051">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[Page not found] – APCO Worldwide&gt; but was:&lt;[Leadership] – APCO Worldwide&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at stepDefinitions.PageSteps.the_page_title_is_something(PageSteps.java:235)&#10;&#9;at ✽.The page title is &quot;Leadership – APCO Worldwide&quot;(src/test/java/features/apcoPeoplePage.feature:38)&#10;">
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User is hovering on "about"............................................passed
+And User is hovering on submenu "leadership"................................passed
+And click on "Iac"..........................................................passed
+And click on "Breadcrumb"...................................................passed
+And click on "SeniorLeadership".............................................passed
+Then The page title is "Leadership – APCO Worldwide"........................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Page not found] – APCO Worldwide> but was:<[Leadership] – APCO Worldwide>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.PageSteps.the_page_title_is_something(PageSteps.java:235)
+	at ✽.The page title is "Leadership – APCO Worldwide"(src/test/java/features/apcoPeoplePage.feature:38)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Apco privacy policy page" name="Verifying the privacy policy Page Title" time="8.273038">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "privacy_policy"...........................................passed
+Then The page title is "Privacy Policy – APCO Worldwide"....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco privacy policy page" name="Verifying that apco logo is visible" time="10.5335">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "privacy_policy"...........................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco terms and conditions page" name="Verifying the terms and conditions Page Title" time="8.080731">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "termsAndCon"..............................................passed
+Then The page title is "Terms & Conditions – APCO Worldwide"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco terms and conditions page" name="Verifying that apco logo is visible" time="8.365072">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When clicking on "termsAndCon"..............................................passed
+Then The orange logo is displayed "true"....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Work page" name="Verifying the Work Page Title" time="7.43156">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+Then The page title is "Work and Expertise – APCO Worldwide"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Work page" name="Verifying all links at Work page are working" time="33.645346">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+Then Check all the links on the "Work" page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Work page" name="Verifying that apco logo is visible" time="12.462843">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+Then The white logo is displayed "true".....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Work page" name="Verifying that selected services changing at every refresh" time="8.974139">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+And scroll into view "WorkServices".........................................passed
+And Checks which service is selected "first"................................passed
+And refreshing the page.....................................................passed
+And Checks which service is selected "second"...............................passed
+Then The services should be the same "false"................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Apco Work page" name="Verifying that when you click on digital at services a description appears" time="8.322832">
+        <system-out>
+            <![CDATA[Given User is landing on home page and accepting cookies window.............passed
+When User clicking on "Work" button on "top" menu...........................passed
+And click on "digital"......................................................passed
+Then The learn more button of the digital description should appear.........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
